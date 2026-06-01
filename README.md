@@ -38,12 +38,7 @@ Navigate to the root directory and set up the Python virtual environment:
 # Install dependencies
 pip install fastapi uvicorn pydantic python-dotenv
 
-# Run the server
-uvicorn main:app --host 0.0.0.0 --port 8000
-```
-Make sure to create a `.env` file in the root containing your active Google Places credentials:
-```env
-GOOGLE_API_KEY=AIzaSyD5CJF4OGXgQ3d7r6vfawB3WApVuD6eCx4
+
 ```
 
 ### 2. Frontend Web Portal
